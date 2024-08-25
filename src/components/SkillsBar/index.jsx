@@ -18,7 +18,6 @@ import { dataBase } from "../../dabaBase";
 
 // import { AiFillGithub } from "react-icons/ai";
 
-
 export function SkillsBar() {
   const [titleTech, setTitleTech] = useState("");
   // const [techInfo, setTechInfo] = useState("");
@@ -34,7 +33,6 @@ export function SkillsBar() {
     // console.log(techInfo)
     // console.log(techInfo2)
   }
-
 
   return (
     <StyleSkillsBar>
@@ -103,13 +101,13 @@ export function SkillsBar() {
           </div>
         </div>
         <div className="boxInformation">
-          <div className="boxInformationTop">
-            <h1>{titleTech}</h1>
-          </div>
-          <div className="boxInformationLow">
-            <p>
-            {techMyInfo}
-            </p>
+          <div className="boxInformationMedium">
+            <div className="boxInformationTop">
+              <h1>{titleTech}</h1>
+            </div>
+            <div className="boxInformationLow">
+              <p>{techMyInfo}</p>
+            </div>
           </div>
         </div>
       </div>

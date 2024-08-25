@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 export const StyleSkillsBar = styled.header`
     background-color: #998496;
+    /* background-color: greenyellow; */
+
     width: 100%;
-    height: 600px;
+    height: 500px;
 
     .titleOfSkillsBar1{
         /* background-color: green; */
@@ -15,14 +17,13 @@ export const StyleSkillsBar = styled.header`
     }
 
     h1{
-        margin-bottom: -20px;
+        /* margin-bottom: -20px; */
     }
 
     .boxIcon{
         display: flex;
         justify-content: space-around;
         width: 500px;
-        height: 600px;
         background-color: red;
         flex-wrap: wrap;
         
@@ -30,17 +31,27 @@ export const StyleSkillsBar = styled.header`
 
     .internalBoxIcon{
         display: flex;
-        background-color: greenyellow;
+        justify-content: center;
+        /* background-color: greenyellow; */
+        background-color: #998496;
         height: 600px;
         width: 100%;
     }
 
     .boxInformation{
-        padding-top: 50px;
+        text-align: center;
         background-color: #695a67;
-        height: 500px;
+        height: 400px;
         width: 600px;
         margin-left: 150px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+
+    }
+
+    .boxInformationMedium{
+        /* background-color: blue; */
     }
 
     .boxInformationTop{
